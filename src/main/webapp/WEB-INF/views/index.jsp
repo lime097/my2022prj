@@ -20,8 +20,8 @@
 	<![endif]-->
 </head>
 <body>
-<h1>Hello, world!</h1>
-
+<h1 style="text-align: center">로그인페이지</h1>
+<div style="align-items: center">
 	<form action="/login" method="post" class="form-horizontal">
 		<div class="form-group">
 			<label for="inputid" class="col-sm-2 control-label">id</label>
@@ -35,7 +35,7 @@
 			<button class="btn btn-primary" type="submit">login</button>
 		</div>
 	</form>
-
+</div>
 <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
