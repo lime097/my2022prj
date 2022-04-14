@@ -53,7 +53,7 @@ function doSubmit(f){
 function calBytes(str){
 	
 	var tcount = 0;
-	var tmpStr = new String(str);
+	var tmpStr = String(str);
 	var strCnt = tmpStr.length;
 
 	var onechar;

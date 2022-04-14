@@ -29,7 +29,7 @@ public class hello {
         }
         rd.close();
         conn.disconnect();
-        System.out.println(sb.toString());
+        System.out.println(sb);
 
     }
 
