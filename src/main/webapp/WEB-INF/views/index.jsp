@@ -23,14 +23,15 @@
 	}
 
 	body {
-		width:100%;
-		height:100%;
+		width: 100%;
+		height: 100%;
 		margin: 0;
 		padding-top: 80px;
 		padding-bottom: 40px;
 		font-family: "Nanum Gothic", arial, helvetica, sans-serif;
 		background-repeat: no-repeat;
-		background-image:url("/src/main/webapp/WEB-INF/views/img/img1.jpg");
+		background-image: url("https://images.unsplash.com/photo-1470723710355-95304d8aece4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+		background-size: cover;
 	}
 
 	.card {
@@ -50,6 +51,7 @@
 		font-size: 16px;
 	}
 </style>
+
 <body cellpadding="0" cellspacing="0" marginleft="0" margintop="0" width="100%" height="100%" align="center">
 
 <div class="card align-middle" style="width:20rem; border-radius:20px;">
