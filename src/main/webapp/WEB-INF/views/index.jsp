@@ -30,7 +30,7 @@
 		padding-bottom: 40px;
 		font-family: "Nanum Gothic", arial, helvetica, sans-serif;
 		background-repeat: no-repeat;
-		background:linear-gradient(to bottom right, #0098FF, #6BA8D1);
+		background-image:url("/src/main/webapp/WEB-INF/views/img/img1.jpg");
 	}
 
 	.card {
