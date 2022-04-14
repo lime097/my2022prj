@@ -10,8 +10,8 @@
 	<title>부트스트랩 101 템플릿</title>
 
 	<!-- 부트스트랩 -->
-	<link href="/css/bootstrap.min.css" rel="stylesheet">
-	<script type="text/javascript" src="resources/js/jquery-3.4.1.min.js"></script>
+	<link href="src/main/webapp/resources/css/bootstrap.css" rel="stylesheet">
+	<script type="text/javascript" src="src/main/webapp/resources/js/jquery-3.6.0.min.js"></script>
 
 	<!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
 	<!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
