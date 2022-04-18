@@ -54,15 +54,26 @@
 
 <div class="card align-middle" style="width:20rem; border-radius:20px;">
     <div class="card-title" style="margin-top:30px;">
-        <h2 class="card-title text-center" style="color:#113366;">로그인 폼</h2>
+        <h2 class="card-title text-center" style="color:#113366;">회원가입</h2>
     </div>
     <div class="card-body">
         <form class="form-signin" method="POST" onSubmit="logincall();return false">
-            <h5 class="form-signin-heading">로그인 정보를 입력하세요</h5>
-            <label for="uid" class="sr-only">Your ID</label>
-            <input type="text" id="uid" class="form-control" placeholder="Your ID" required autofocus><BR>
+            <h5 class="form-signin-heading">회원가입</h5>
+            <label for="uid" class="sr-only">ID</label>
+            <input type="text" id="uid" class="form-control" placeholder="ID" required autofocus><BR>
+            <button id="if-chk" class="btn btn-lg btn-primary btn-block" type="button"중복체크</button>
             <label for="upw" class="sr-only">Password</label>
             <input type="password" id="upw" class="form-control" placeholder="Password" required><br>
+            <label for="pwc" class="sr-only">Passwordcheck</label>
+            <input type="password" id="pwc" class="form-control" placeholder="Passwordcheck" required><br>
+            <label for="uem" class="sr-only">Email</label>
+            <input type="email" id="uem" class="form-control" placeholder="Email" required><br>
+            <label for="uad" class="sr-only">Password</label>
+            <input type="adderess" id="uad" class="form-control" placeholder="Addr" required><br>
+
+
+
+
             <button id="btn-Yes" class="btn btn-lg btn-primary btn-block" type="submit">로 그 인</button>
         </form>
 
