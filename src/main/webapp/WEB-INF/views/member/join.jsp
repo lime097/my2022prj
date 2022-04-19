@@ -67,7 +67,7 @@
             <label for="pwc" class="sr-only">Passwordcheck</label>
             <input type="password" id="pwc" class="form-control" placeholder="Passwordcheck" required><br>
             <label for="uem" class="sr-only">Email</label>
-            <input type="email" id="uem" class="form-control" placeholder="Email" required><br>
+            <input type="email" id="uem" class="form-control" placeholder="Email" required>
             <button id="emailcheck" class="btn btn-lg btn-primary btn-block" type="button">이메일 체크</button><br>
             <label for="uad" class="sr-only">Password</label>
             <input type="adderess" id="uad" class="form-control" placeholder="Addr" required><br>
