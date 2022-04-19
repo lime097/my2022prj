@@ -12,7 +12,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>로그인 폼</title>
+    <title>회원가입</title>
 
 </head>
 <style>
@@ -61,7 +61,7 @@
             <h5 class="form-signin-heading">회원가입</h5>
             <label for="uid" class="sr-only">ID</label>
             <input type="text" id="uid" class="form-control" placeholder="ID" required autofocus>
-            <button id="if-chk" class="btn btn-lg btn-primary btn-block" type="button">중복체크</button><br><br>
+            <button id="if-chk" class="btn btn-lg btn-primary btn-block" type="button">중복체크</button><p></p>
             <label for="upw" class="sr-only">Password</label>
             <input type="password" id="upw" class="form-control" placeholder="Password" required><br>
             <label for="pwc" class="sr-only">Passwordcheck</label>
