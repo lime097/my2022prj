@@ -60,8 +60,8 @@
         <form class="form-signin" method="POST" onSubmit="logincall();return false">
             <h5 class="form-signin-heading">회원가입</h5>
             <label for="uid" class="sr-only">ID</label>
-            <input type="text" id="uid" class="form-control" placeholder="ID" required autofocus><BR>
-            <button id="if-chk" class="btn btn-lg btn-primary btn-block" type="button">중복체크</button>
+            <input type="text" id="uid" class="form-control" placeholder="ID" required autofocus>
+            <button id="if-chk" class="btn btn-lg btn-primary btn-block" type="button">중복체크</button><br>
             <label for="upw" class="sr-only">Password</label>
             <input type="password" id="upw" class="form-control" placeholder="Password" required><br>
             <label for="pwc" class="sr-only">Passwordcheck</label>
