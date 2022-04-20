@@ -12,9 +12,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>회원가입</title>
+    <title>회원가입1</title>
 
 </head>
+<!--https://kimvampa.tistory.com/105?category=771727 -->
 <style>
     @import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
 
@@ -219,7 +220,7 @@
 
             /* 최종 유효성 검사 */
             if(idCheck&&idckCheck&&pwCheck&&pwckCheck&&pwckcorCheck&&mailCheck&&mailnumCheck&&addressCheck ){
-                $("#join_form").attr("action", "/member/join");
+                $("#join_form").attr("action", "/join");
                 $("#join_form").submit();
 
             }
