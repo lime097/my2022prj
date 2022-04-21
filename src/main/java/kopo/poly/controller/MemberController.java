@@ -65,8 +65,8 @@ public class MemberController {
         pDTO.setUser_pw(user_pw);
         pDTO.setUser_email(user_email);
         pDTO.setUser_addr1(user_addr1);
-        pDTO.setUser_addr1(user_addr2);
-        pDTO.setUser_addr1(user_addr3);
+        pDTO.setUser_addr2(user_addr2);
+        pDTO.setUser_addr3(user_addr3);
 
         /*
          * 게시글 등록하기위한 비즈니스 로직을 호출
