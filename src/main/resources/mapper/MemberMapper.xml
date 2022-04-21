@@ -4,7 +4,7 @@
 <!-- JAVA와 연결할 Mapper 파일 설정 -->
 <mapper namespace="kopo.poly.persistance.mapper.IMemberMapper">
 
-	<insert id="userjoin">
+	<insert id="userjoin" parameterType="MemberDTO">
 		insert into member values(
 		                          0, #{user_id}, #{user_pw},#{user_email}, #{user_addr1}, #{user_addr2}, #{user_addr3}, sysdate(), 0
 								 )
