@@ -38,6 +38,18 @@ public class MemberController {
      * PostMapping은 POST방식을 통해 접속되는 URL 호출에 대해 실행되는 함수로 설정함을 의미함
      * GetMapping(value = "index") =>  GET방식을 통해 접속되는 URL이 index인 경우 아래 함수를 실행함
      */
+    //회원가입
+    @RequestMapping(value="/join1", method=RequestMethod.POST)
+    public String joinPOST(MemberDTO memberDTO) throws Exception{
+
+        // 회원가입 서비스 실행
+        memberService.userjoin(memberDTO);
+
+
+        return "redirect:/index";
+
+    }
+
     //getMapping 값 겹치지않기
     @GetMapping(value = "/join")
     public String joinpage() throws Exception {
@@ -113,15 +125,5 @@ public class MemberController {
         return num;
 
     }
-    //회원가입
-    @RequestMapping(value="/join", method=RequestMethod.POST)
-    public String joinPOST(MemberDTO memberDTO) throws Exception{
 
-        // 회원가입 서비스 실행
-        memberService.userjoin(memberDTO);
-
-
-        return "redirect:/index";
-
-    }
 }
