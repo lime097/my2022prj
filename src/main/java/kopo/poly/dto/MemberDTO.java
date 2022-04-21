@@ -17,26 +17,30 @@ public class MemberDTO {
    // private String notice_seq; // 기본키, 순번
  // 테이블 작성
         private int user_seq;
-        private int user_auth;
         private String user_id;
         private String user_pw;
         private String user_email;
-        private String user_addr;
+        private String user_addr1;
+        private String user_addr2;
+        private String user_addr3;
         private LocalDate user_dt;
+        private int adminck;
 
         public MemberDTO(){
             super();
         }
 
-        public MemberDTO(int user_seq, int user_auth, String user_id, String user_pw, String user_email, String user_addr, LocalDate user_dt) {
+        public MemberDTO(int user_seq, String user_id, String user_pw, String user_email, String user_addr1, String user_addr2,String user_addr3, LocalDate user_dt, int adminck) {
             super();
             this.user_seq = user_seq;
-            this.user_auth = user_auth;
             this.user_id = user_id;
             this.user_pw = user_pw;
             this.user_email = user_email;
             this.user_seq = user_seq;
-            this.user_addr = user_addr;
+            this.user_addr1 = user_addr1;
+            this.user_addr2 = user_addr2;
+            this.user_addr3 = user_addr3;
             this.user_dt = user_dt;
+            this.adminck = adminck;
         }
 }

@@ -32,4 +32,10 @@ public class MemberController {
     public String joinpage() throws Exception {
     return "/member/join";
      }
+    @GetMapping(value = "/join1")
+    public String joinpage1() throws Exception {
+        return "/member/join1";
+    }
+
+
 }

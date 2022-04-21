@@ -16,7 +16,7 @@
 
 </head>
 <!--https://kimvampa.tistory.com/105?category=771727 -->
-<style>
+<%--<style>
     @import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
 
     html {
@@ -50,7 +50,7 @@
         padding: 10px;
         font-size: 16px;
     }
-</style>
+</style>--%>
 <body cellpadding="0" cellspacing="0" marginleft="0" margintop="0" width="100%" height="100%" align="center">
 
 <div class="card align-middle" style="width:20rem; border-radius:20px;">
