@@ -2,6 +2,7 @@ package kopo.poly.controller;
 
 import kopo.poly.dto.MemberDTO;
 import kopo.poly.service.IMemberService;
+import kopo.poly.util.CmmUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import javax.mail.internet.MimeMessage;
+import javax.servlet.http.HttpServletRequest;
 import java.util.Random;
 
 
@@ -40,10 +42,41 @@ public class MemberController {
      */
     //회원가입
     @RequestMapping(value="/join1", method=RequestMethod.POST)
-    public String joinPOST(MemberDTO memberDTO) throws Exception{
+    public String joinPOST(HttpServletRequest request) throws Exception{
+
+        String user_id = CmmUtil.nvl(request.getParameter("userid"));
+        String user_pw = CmmUtil.nvl(request.getParameter("memberPw"));
+        String user_email = CmmUtil.nvl(request.getParameter("memberMail"));
+        String user_addr1 = CmmUtil.nvl(request.getParameter("memberAddr1"));
+        String user_addr2 = CmmUtil.nvl(request.getParameter("memberAddr2"));
+        String user_addr3 = CmmUtil.nvl(request.getParameter("memberAddr3"));
+
+        log.info(user_id);
+        log.info(user_pw);
+        log.info(user_email);
+        log.info(user_addr1);
+        log.info(user_addr2);
+        log.info(user_addr3);
+
+
+        MemberDTO pDTO = new MemberDTO();
+
+        pDTO.setUser_id(user_id);
+        pDTO.setUser_pw(user_pw);
+        pDTO.setUser_email(user_email);
+        pDTO.setUser_addr1(user_addr1);
+        pDTO.setUser_addr1(user_addr2);
+        pDTO.setUser_addr1(user_addr3);
+
+        /*
+         * 게시글 등록하기위한 비즈니스 로직을 호출
+         */
+        memberService.userjoin(pDTO);
+
+
 
         // 회원가입 서비스 실행
-        memberService.userjoin(memberDTO);
+
 
 
         return "redirect:/index";
