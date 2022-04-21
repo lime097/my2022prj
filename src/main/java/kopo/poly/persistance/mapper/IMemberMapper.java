@@ -5,6 +5,8 @@ import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface IMemberMapper {
-     void userjoin(MemberDTO memberDTO) throws Exception;
+    void int idCheck(String user_id) throws Exception;
+
+    void userjoin(MemberDTO memberDTO) throws Exception;
 
 }

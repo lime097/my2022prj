@@ -1,9 +1,13 @@
 package kopo.poly.controller;
 
+import kopo.poly.persistance.mapper.IMemberMapper;
 import kopo.poly.service.IMemberService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 
@@ -36,6 +40,27 @@ public class MemberController {
     public String joinpage1() throws Exception {
         return "/member/join1";
     }
+    @RequestMapping(value = "/memberIdChk", method = RequestMethod.POST)
+    @ResponseBody
+    public String memberIdChkPOST(String user_id) throws Exception{
+
+        /* logger.info("memberIdChk() 진입"); */
 
 
+
+        int result = IMemberMapper.idCheck(user_id);
+
+
+
+        if(result != 0) {
+
+            return "fail";	// 중복 아이디가 존재
+
+        } else {
+
+            return "success";	// 중복 아이디 x
+
+        }
+
+    } // memberIdChkPOST() 종료
 }

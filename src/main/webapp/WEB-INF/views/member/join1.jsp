@@ -292,7 +292,7 @@
             <div class="id_wrap">
                 <div class="id_name">아이디</div>
                 <div class="id_input_box">
-                    <input class="id_input" name="memberId">
+                    <input class="id_input" name="userid">
                 </div>
                 <span class="id_input_re_1">사용 가능한 아이디입니다.</span>
                 <span class="id_input_re_2">아이디가 이미 존재합니다.</span>
@@ -378,7 +378,6 @@
     var pwCheck = false;			// 비번
     var pwckCheck = false;			// 비번 확인
     var pwckcorCheck = false;		// 비번 확인 일치 확인
-    var nameCheck = false;			// 이름
     var mailCheck = false;			// 이메일
     var mailnumCheck = false;		// 이메일 인증번호 확인
     var addressCheck = false 		// 주소
@@ -390,7 +389,6 @@
             var id = $('.id_input').val(); 				// id 입력란
             var pw = $('.pw_input').val();				// 비밀번호 입력란
             var pwck = $('.pwck_input').val();			// 비밀번호 확인 입력란
-            var name = $('.user_input').val();			// 이름 입력란
             var mail = $('.mail_input').val();			// 이메일 입력란
             var addr = $('.address_input_3').val();		// 주소 입력란
 
@@ -422,13 +420,6 @@
             }
 
             /* 이름 유효성 검사 */
-            if(name == ""){
-                $('.final_name_ck').css('display','block');
-                nameCheck = false;
-            }else{
-                $('.final_name_ck').css('display', 'none');
-                nameCheck = true;
-            }
 
             /* 이메일 유효성 검사 */
             if(mail == ""){
@@ -449,7 +440,7 @@
             }
 
             /* 최종 유효성 검사 */
-            if(idCheck&&idckCheck&&pwCheck&&pwckCheck&&pwckcorCheck&&nameCheck&&mailCheck&&mailnumCheck&&addressCheck ){
+            if(idCheck&&idckCheck&&pwCheck&&pwckCheck&&pwckcorCheck&&mailCheck&&mailnumCheck&&addressCheck ){
                 $("#join_form").attr("action", "/member/join");
                 $("#join_form").submit();
 
@@ -460,14 +451,14 @@
     });
     //아이디 중복검사
     $('.id_input').on("propertychange change keyup paste input", function(){
-         console.log("keyup 테스트");
+        /* console.log("keyup 테스트");*/
 
-        var memberId = $('.id_input').val();			// .id_input에 입력되는 값
-        var data = {memberId : memberId}				// '컨트롤에 넘길 데이터 이름' : '데이터(.id_input에 입력되는 값)'
+        var userid = $('.id_input').val();			// .id_input에 입력되는 값
+        var data = {user_id : userid}				// '컨트롤에 넘길 데이터 이름' : '데이터(.id_input에 입력되는 값)'
 
         $.ajax({
             type : "post",
-            url : "/member/memberIdChk",
+            url : "/memberIdChk",
             data : data,
             success : function(result){
                 // console.log("성공 여부" + result);

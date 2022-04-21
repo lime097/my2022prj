@@ -5,8 +5,8 @@ import kopo.poly.dto.MemberDTO;
 
 public interface IMemberService {
 
-     void userjoin(MemberDTO memberDTO) throws Exception;
+    public void userjoin(MemberDTO memberDTO) throws Exception;
 
-	
+	public int idCheck(String user_id) throws Exception;
 }
 

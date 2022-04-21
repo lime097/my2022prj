@@ -9,4 +9,8 @@
 		                          0, #{user_id}, #{user_pw},#{user_email}, #{user_addr1}, #{user_addr2}, #{user_addr3}, sysdate, 0
 								 )
 	</insert>
+
+	<select id="idCheck" resultType="int">
+		select count(*) from member where user_id = #{user_id}
+	</select>
 </mapper>

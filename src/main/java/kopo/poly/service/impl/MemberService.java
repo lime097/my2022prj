@@ -18,4 +18,9 @@ public class MemberService implements IMemberService {
     public void userjoin(MemberDTO memberDTO) throws Exception {
        memberMapper.userjoin(memberDTO);
     }
+
+    @Override
+    public int idCheck(String user_id) throws Exception {
+        memberMapper.idCheck(user_id);
+    }
 }
