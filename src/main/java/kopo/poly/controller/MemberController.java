@@ -1,6 +1,5 @@
 package kopo.poly.controller;
 
-import kopo.poly.persistance.mapper.IMemberMapper;
 import kopo.poly.service.IMemberService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -48,7 +47,7 @@ public class MemberController {
 
 
 
-        int result = IMemberMapper.idCheck(user_id);
+        int result = memberService.idCheck(user_id);
 
 
 
