@@ -456,7 +456,7 @@
 
             /* 최종 유효성 검사 */
             if(idCheck&&idckCheck&&pwCheck&&pwckCheck&&pwckcorCheck&&mailCheck&&mailnumCheck&&addressCheck ){
-                $("#join_form").attr("action", "/join");
+                $("#join_form").attr("action", "/join1");
                 $("#join_form").submit();
 
             }
