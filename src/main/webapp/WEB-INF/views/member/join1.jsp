@@ -56,7 +56,7 @@
     .id_input_box{
         border: 1px solid black;
         height:31px;
-        padding: 5px 14px;
+        padding: 1px 14px;
 
     }
     .id_input{
@@ -88,7 +88,7 @@
     .pw_input_box{
         border: 1px solid black;
         height:31px;
-        padding: 5px 14px;
+        padding: 1px 14px;
 
     }
     .pw_input{
@@ -110,7 +110,7 @@
     .pwck_input_box{
         border: 1px solid black;
         height:31px;
-        padding: 5px 14px;
+        padding: 1px 14px;
 
     }
     .pwck_input{
@@ -132,7 +132,7 @@
     .mail_input_box{
         border: 1px solid black;
         height:31px;
-        padding: 5px 14px;
+        padding: 1px 14px;
 
     }
     .mail_input{
@@ -147,7 +147,7 @@
     .mail_check_input_box{
         border: 1px solid black;
         height: 31px;
-        padding: 5px 14px;
+        padding: 1px 14px;
         width: 61%;
         float: left;
     }
@@ -194,7 +194,7 @@
     .address_input_1_box{
         border: 1px solid black;
         height: 31px;
-        padding: 5px 14px;
+        padding: 1px 14px;
         width: 61%;
         float: left;
     }
@@ -222,7 +222,7 @@
     .address_input_2_box{
         border: 1px solid black;
         height:31px;
-        padding: 5px 14px;
+        padding: 1px 14px;
 
     }
     .address_input_2{
@@ -238,7 +238,7 @@
     .address_input_3_box{
         border: 1px solid black;
         height:31px;
-        padding: 5px 14px;
+        padding: 1px 14px;
 
     }
     .address_input_3{
@@ -314,7 +314,7 @@
             <div class="id_wrap">
                 <div class="id_name">아이디</div>
                 <div class="id_input_box">
-                    <input class="id_input" name="userid" id="userid">
+                    <input type="text" class="id_input" name="userid" id="userid">
                 </div>
                 <span class="id_input_re_1">사용 가능한 아이디입니다.</span>
                 <span class="id_input_re_2">아이디가 이미 존재합니다.</span>
@@ -323,14 +323,14 @@
             <div class="pw_wrap">
                 <div class="pw_name">비밀번호</div>
                 <div class="pw_input_box">
-                    <input class="pw_input" name="memberPw" id="memberPw">
+                    <input type="text" class="pw_input" name="memberPw" id="memberPw">
                 </div>
                 <span class="final_pw_ck">비밀번호를 입력해주세요.</span>
             </div>
             <div class="pwck_wrap">
                 <div class="pwck_name">비밀번호 확인</div>
                 <div class="pwck_input_box">
-                    <input class="pwck_input">
+                    <input type="text" class="pwck_input">
                 </div>
                 <span class="final_pwck_ck">비밀번호 확인을 입력해주세요.</span>
                 <span class="pwck_input_re_1">비밀번호가 일치합니다.</span>
@@ -339,13 +339,13 @@
             <div class="mail_wrap">
                 <div class="mail_name">이메일</div>
                 <div class="mail_input_box">
-                    <input class="mail_input" name="memberMail" id="memberMail">
+                    <input type="text" class="mail_input" name="memberMail" id="memberMail">
                 </div>
                 <span class="final_mail_ck">이메일을 입력해주세요.</span>
                 <sapn class="mail_input_box_warn"></sapn>
                 <div class="mail_check_wrap">
                     <div class="mail_check_input_box" id="mail_check_input_box_false">
-                        <input class="mail_check_input" disabled="disabled">
+                        <input type="text" class="mail_check_input" disabled="disabled">
                     </div>
                     <div class="mail_check_button">
                         <span>인증번호 전송</span>
@@ -358,7 +358,7 @@
                 <div class="address_name">주소</div>
                 <div class="address_input_1_wrap">
                     <div class="address_input_1_box">
-                        <input class="address_input_1" name="memberAddr1" readonly="readonly" id="memberAddr1">
+                        <input type="text" class="address_input_1" name="memberAddr1" readonly="readonly" id="memberAddr1">
                     </div>
                     <div class="address_button" onclick="execution_daum_address()">
                         <span>주소 찾기</span>
@@ -367,12 +367,12 @@
                 </div>
                 <div class ="address_input_2_wrap">
                     <div class="address_input_2_box">
-                        <input class="address_input_2" name="memberAddr2" readonly="readonly" id="memberAddr2">
+                        <input type="text" class="address_input_2" name="memberAddr2" readonly="readonly" id="memberAddr2">
                     </div>
                 </div>
                 <div class ="address_input_3_wrap">
                     <div class="address_input_3_box">
-                        <input class="address_input_3" name="memberAddr3" readonly="readonly" id="memberAddr3">
+                        <input type="text" class="address_input_3" name="memberAddr3" readonly="readonly" id="memberAddr3">
                     </div>
                 </div>
                 <span class="final_addr_ck">주소를 입력해주세요.</span>
