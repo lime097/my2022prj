@@ -120,28 +120,6 @@
         font-size:28px;
     }
 
-    /* 이름 영역 */
-    .user_wrap{
-        width: 100%;
-        margin-top: 20px;
-    }
-    .user_name{
-        font-size: 25px;
-        font-weight: bold;
-    }
-    .user_input_box{
-        border: 1px solid black;
-        height:31px;
-        padding: 10px 14px;
-
-    }
-    .user_input{
-        width:100%;
-        height:100%;
-        border:none;
-        font-size:28px;
-    }
-
     /* 메일 영역 */
     .mail_wrap{
         width: 100%;
@@ -357,13 +335,6 @@
                 <span class="final_pwck_ck">비밀번호 확인을 입력해주세요.</span>
                 <span class="pwck_input_re_1">비밀번호가 일치합니다.</span>
                 <span class="pwck_input_re_2">비밀번호가 일치하지 않습니다.</span>
-            </div>
-            <div class="user_wrap">
-                <div class="user_name">이름</div>
-                <div class="user_input_box">
-                    <input class="user_input" name="memberName">
-                </div>
-                <span class="final_name_ck">이름을 입력해주세요.</span>
             </div>
             <div class="mail_wrap">
                 <div class="mail_name">이메일</div>

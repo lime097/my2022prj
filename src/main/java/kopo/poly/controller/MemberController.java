@@ -1,5 +1,6 @@
 package kopo.poly.controller;
 
+import kopo.poly.dto.MemberDTO;
 import kopo.poly.service.IMemberService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -110,6 +111,17 @@ public class MemberController {
         String num = Integer.toString(checkNum);
 
         return num;
+
+    }
+    //회원가입
+    @RequestMapping(value="/join", method=RequestMethod.POST)
+    public String joinPOST(MemberDTO memberDTO) throws Exception{
+
+        // 회원가입 서비스 실행
+        memberService.userjoin(memberDTO);
+
+
+        return "redirect:/index";
 
     }
 }
