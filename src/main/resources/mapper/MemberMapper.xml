@@ -6,7 +6,7 @@
 
 	<insert id="userjoin" parameterType="MemberDTO">
 		insert into member(user_seq, user_id, user_pw, user_email, user_addr1, user_addr2, user_addr3, user_dt, adminck)
-		VALUES (0, #{user_id}, #{user_pw}, #{user_email}, #{user_addr1}, #{user_addr2}, #{user_addr3}, sysdate(), 0)
+		VALUES(0, #{user_id}, #{user_pw}, #{user_email}, #{user_addr1}, #{user_addr2}, #{user_addr3}, sysdate(), 0)
 	</insert>
 
 	<select id="idCheck" resultType="int">
