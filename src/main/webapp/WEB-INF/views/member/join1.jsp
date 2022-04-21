@@ -56,7 +56,7 @@
     .id_input_box{
         border: 1px solid black;
         height:31px;
-        padding: 10px 14px;
+        padding: 5px 14px;
 
     }
     .id_input{
@@ -88,7 +88,7 @@
     .pw_input_box{
         border: 1px solid black;
         height:31px;
-        padding: 10px 14px;
+        padding: 5px 14px;
 
     }
     .pw_input{
@@ -110,7 +110,7 @@
     .pwck_input_box{
         border: 1px solid black;
         height:31px;
-        padding: 10px 14px;
+        padding: 5px 14px;
 
     }
     .pwck_input{
@@ -132,7 +132,7 @@
     .mail_input_box{
         border: 1px solid black;
         height:31px;
-        padding: 10px 14px;
+        padding: 5px 14px;
 
     }
     .mail_input{
@@ -147,7 +147,7 @@
     .mail_check_input_box{
         border: 1px solid black;
         height: 31px;
-        padding: 10px 14px;
+        padding: 5px 14px;
         width: 61%;
         float: left;
     }
@@ -194,7 +194,7 @@
     .address_input_1_box{
         border: 1px solid black;
         height: 31px;
-        padding: 10px 14px;
+        padding: 5px 14px;
         width: 61%;
         float: left;
     }
@@ -222,7 +222,7 @@
     .address_input_2_box{
         border: 1px solid black;
         height:31px;
-        padding: 10px 14px;
+        padding: 5px 14px;
 
     }
     .address_input_2{
@@ -238,7 +238,7 @@
     .address_input_3_box{
         border: 1px solid black;
         height:31px;
-        padding: 10px 14px;
+        padding: 5px 14px;
 
     }
     .address_input_3{
