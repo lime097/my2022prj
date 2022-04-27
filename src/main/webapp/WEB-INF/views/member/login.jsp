@@ -26,8 +26,10 @@
         <input type="text" name="id" placeholder="아이디" />
         <input type="text" name="pw" placeholder="비밀번호" />
         <button>로그인</button>
+        <button class="btn btn-lg btn-danger" value="/join1">회원가입</button>
     </form>
-    <button class="btn btn-lg btn-danger" value="/join1">회원가입</button>
+
+
 </div>
 <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
