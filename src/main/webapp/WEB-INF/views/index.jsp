@@ -68,7 +68,7 @@
 			<input type="password" id="upw" class="form-control" placeholder="Password" required><br>
 			<button id="btn-Yes" class="btn btn-lg btn-primary btn-block" type="submit">로 그 인</button>
 		</form>
-		<button id="joinuser" class="btn btn-lg btn-danger btn-block" type="submit" value="/join1">회원가입</button>
+		<button id="joinuser" class="btn btn-lg btn-danger btn-block" type="submit" onclick="/join1">회원가입</button>
 	</div>
 </div>
 
