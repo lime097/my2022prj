@@ -60,7 +60,7 @@
 		<h2 class="card-title text-center" style="color:#113366;">로그인 폼</h2>
 	</div>
 	<div class="card-body">
-		<form class="form-signin" method="POST" onSubmit="">
+		<form class="form-signin" method="POST" onSubmit="/userlogin">
 			<h5 class="form-signin-heading">로그인 정보를 입력하세요</h5>
 			<label for="user_id" class="sr-only">Your ID</label>
 			<input type="text" id="user_id" class="form-control" placeholder="Your ID" required autofocus><BR>
