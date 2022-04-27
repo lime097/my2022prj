@@ -90,6 +90,10 @@ public class MemberController {
     public String joinpage() throws Exception {
     return "/member/join";
      }
+    @GetMapping(value = "/login")
+    public String loginpage() throws Exception {
+        return "/member/login";
+    }
     @GetMapping(value = "/join1")
     public String joinpage1() throws Exception {
         return "/member/join1";
@@ -174,7 +178,7 @@ public class MemberController {
         if(member == null){
             int result = 0;
             rttr.addFlashAttribute("/result", result);
-            return "redirct:/index";
+            return "redirct:/login";
         }
         session.setAttribute("member", member);
         return "redirct:/main";
