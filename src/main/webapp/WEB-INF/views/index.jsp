@@ -60,13 +60,13 @@
 		<h2 class="card-title text-center" style="color:#113366;">로그인 폼</h2>
 	</div>
 	<div class="card-body">
-		<form class="form-signin" method="POST" onSubmit="logincall();return false">
+		<form class="form-signin" method="POST" onSubmit="">
 			<h5 class="form-signin-heading">로그인 정보를 입력하세요</h5>
-			<label for="uid" class="sr-only">Your ID</label>
-			<input type="text" id="uid" class="form-control" placeholder="Your ID" required autofocus><BR>
-			<label for="upw" class="sr-only">Password</label>
-			<input type="password" id="upw" class="form-control" placeholder="Password" required><br>
-			<button id="btn-Yes" class="btn btn-lg btn-primary btn-block" type="submit">로 그 인</button>
+			<label for="user_id" class="sr-only">Your ID</label>
+			<input type="text" id="user_id" class="form-control" placeholder="Your ID" required autofocus><BR>
+			<label for="user_pw" class="sr-only">Password</label>
+			<input type="password" id="user_pw" class="form-control" placeholder="Password" required><br>
+			<button id="login_button" class="btn btn-lg btn-primary btn-block" type="submit">로 그 인</button>
 		</form>
 		<button id="joinuser" class="btn btn-lg btn-warning btn-block" type="submit" onclick="location.href='http://localhost:10000/join1'">회원가입</button>
 	</div>
@@ -74,6 +74,11 @@
 
 <div class="modal">
 </div>
+<script>
+	$("form-signin").attr("action","/userlogin");
+	$("form-signin").submit();
+
+</script>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

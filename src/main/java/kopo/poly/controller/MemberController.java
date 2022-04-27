@@ -12,10 +12,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.annotation.Resource;
 import javax.mail.internet.MimeMessage;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import java.util.Random;
 
 
@@ -158,5 +160,19 @@ public class MemberController {
         return num;
 
     }
+    @RequestMapping(value = "/userlogin", method = RequestMethod.POST)
+    @ResponseBody
+    public String userloginPOST(HttpServletRequest request, MemberDTO memberDTO, RedirectAttributes rttr) throws Exception {
 
+        /* logger.info("memberIdChk() 진입"); */
+        HttpSession session = request.getSession();
+        MemberDTO member = memberService.userlogin(memberDTO);
+        if(member == null){
+            int result = 0;
+            rttr.addFlashAttribute("/result", result);
+            return "redirct:/index";
+        }
+        session.setAttribute("member", member);
+        return "redirct:/main";
+    }
 }

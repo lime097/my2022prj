@@ -23,4 +23,11 @@ public class MemberService implements IMemberService {
     public int idCheck(String user_id) throws Exception {
         return memberMapper.idCheck(user_id);
     }
+
+    @Override
+    public MemberDTO userlogin(MemberDTO memberDTO) throws Exception {
+        memberMapper.userlogin(memberDTO);
+        return memberDTO;
+    }
+
 }

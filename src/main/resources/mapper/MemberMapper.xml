@@ -12,4 +12,8 @@
 	<select id="idCheck" resultType="int">
 		select count(*) from member where user_id = #{user_id}
 	</select>
+
+	<select id="userlogin" resultType="MemberDTO">
+		select user_id, user_pw, adminck from member where user_id = #{user_id} and user_pw = #{user_pw}
+	</select>
 </mapper>
