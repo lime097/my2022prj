@@ -96,7 +96,7 @@ public class MemberController {
     }
     @GetMapping(value = "/main")
     public String mainpage() throws Exception {
-        return "/main";
+        return "/member/main";
     }
     @RequestMapping(value = "/memberIdChk", method = RequestMethod.POST)
     @ResponseBody
