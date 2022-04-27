@@ -94,6 +94,10 @@ public class MemberController {
     public String joinpage1() throws Exception {
         return "/member/join1";
     }
+    @GetMapping(value = "/main")
+    public String mainpage() throws Exception {
+        return "/main";
+    }
     @RequestMapping(value = "/memberIdChk", method = RequestMethod.POST)
     @ResponseBody
     public String memberIdChkPOST(String user_id) throws Exception{
