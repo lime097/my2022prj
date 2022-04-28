@@ -90,6 +90,10 @@ public class MemberController {
     public String joinpage() throws Exception {
     return "/member/join";
      }
+    @GetMapping(value = "/header")
+    public String headerpage() throws Exception {
+        return "/header";
+    }
     @GetMapping(value = "/login")
     public String loginpage() throws Exception {
         return "/member/login";
