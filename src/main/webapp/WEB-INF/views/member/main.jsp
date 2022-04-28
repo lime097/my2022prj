@@ -73,7 +73,7 @@
 </style>
 <body>
 
-<div id="map" style="width:100%;height:100%;"></div>
+<div id="map" style="width:600px;height:600px;"></div>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c76cc1c43d5a2282105afc01c0e20903"></script>
 <script>
 	var container = document.getElementById('map');
