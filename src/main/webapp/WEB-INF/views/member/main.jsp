@@ -91,14 +91,18 @@ function seoul1(){
 
 </script>
 <!--시도=지도이동 구=지도이동, 건물표시 시도16개 구 108?개 -->
-<div class="btn-group dropup">
-	<button type="button" class="btn btn-secondary" onclick="setSeoul()">
+<div class="btn-group">
+	<!-- 추가 버튼태그 -->
+	<button class="btn btn-default" type="button">
 		서울
 	</button>
-	<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-		<span class="visually-hidden">Toggle Dropdown</span>
+	<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+		<!-- 버튼태그 우측 메뉴출력을 위한 화살표표시
+            (없어도 무관하나 메뉴버튼이라는것을 알려주기 위함) -->
+		<span class="caret"></span>
 	</button>
-	<ul class="dropdown-menu">
+	<!--메뉴버튼 클릭시 하단 표출된 리스트 영역  -->
+	<ul class="dropdown-menu" >
 		<li><a class="dropdown-item" onclick="seoul1()">종로구</a></li>
 		<li><a class="dropdown-item" href="#">중구</a></li>
 		<li><a class="dropdown-item" href="#">용산구</a></li>
@@ -128,6 +132,7 @@ function seoul1(){
 
 	</ul>
 </div>
+
 <button class="btn btn-lg btn-warning" onclick="setSeoul(), api1()">서울</button>
 <button class="btn btn-lg btn-warning" onclick="api7()">부산</button>
 <button class="btn btn-lg btn-warning" onclick="api8()">대구</button>
