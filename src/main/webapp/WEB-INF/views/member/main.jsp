@@ -6,6 +6,13 @@
 	<meta charset="utf-8"/>
 	<title>Kakao 지도 시작하기</title>
 </head>
+<style>
+	header {
+		position: sticky;
+		top: 0;
+	}
+
+</style>
 <head>
 
 
@@ -57,18 +64,12 @@
 
 	</nav>
 </head>
-<style>
-	header {
-		position: sticky;
-		top: 0;
-	}
 
-</style>
 <body>
 
 <div id="map" style="width:100%;height:600px;"></div>
 
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=발급받은 APP KEY를 사용하세요"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	b491df59ed70f9311d68c0e9db25b4dd"></script>
 <script>
 	var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 			mapOption = {
