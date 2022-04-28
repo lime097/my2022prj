@@ -86,12 +86,36 @@ function api1(){
 </script>
 <!--시도=지도이동 구=지도이동, 건물표시 시도16개 구 108?개 -->
 <div class="dropdown">
-	<a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-		Dropdown trigger
-		<span class="caret"></span>
-	</a>
+	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"  onclick="setSeoul()">
+		서울
+	</button>
+	<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+		<li><a class="dropdown-item" href="#">종로구</a></li>
+		<li><a class="dropdown-item" href="#">중구</a></li>
+		<li><a class="dropdown-item" href="#">용산구</a></li>
+		<li><a class="dropdown-item" href="#">성동구</a></li>
+		<li><a class="dropdown-item" href="#">광진구</a></li>
+		<li><a class="dropdown-item" href="#">동대문구</a></li>
+		<li><a class="dropdown-item" href="#">중랑구</a></li>
+		<li><a class="dropdown-item" href="#">성북구</a></li>
+		<li><a class="dropdown-item" href="#">강북구</a></li>
+		<li><a class="dropdown-item" href="#">도봉구</a></li>
+		<li><a class="dropdown-item" href="#">노원구</a></li>
+		<li><a class="dropdown-item" href="#">은평구</a></li>
+		<li><a class="dropdown-item" href="#">서대문구</a></li>
+		<li><a class="dropdown-item" href="#">마포구</a></li>
+		<li><a class="dropdown-item" href="#">양천구</a></li>
+		<li><a class="dropdown-item" href="#">강서구</a></li>
+		<li><a class="dropdown-item" href="#">구로구</a></li>
+		<li><a class="dropdown-item" href="#">금천구</a></li>
+		<li><a class="dropdown-item" href="#">영등포구</a></li>
+		<li><a class="dropdown-item" href="#">동작구</a></li>
+		<li><a class="dropdown-item" href="#">관악구</a></li>
+		<li><a class="dropdown-item" href="#">서초구</a></li>
+		<li><a class="dropdown-item" href="#">강남구</a></li>
+		<li><a class="dropdown-item" href="#">송파구</a></li>
+		<li><a class="dropdown-item" href="#">강동구</a></li>
 
-	<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 
 	</ul>
 </div>
