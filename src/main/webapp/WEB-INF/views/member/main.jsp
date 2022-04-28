@@ -2,45 +2,62 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head class="p-3 bg-dark text-white">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<meta name="description" content="">
-	<meta name="author" content="">
+<head>
+	<meta charset="utf-8"/>
+	<title>Kakao 지도 시작하기</title>
+</head>
+<head>
+
+
+
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<title>Kakao 지도 시작하기</title>
-	<div class="container">
-		<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-			<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-				<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-			</a>
 
-			<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-				<li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-				<li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-				<li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-				<li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-				<li><a href="#" class="nav-link px-2 text-white">About</a></li>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+		<a class="navbar-brand" href="#">FREEHOON.COM</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+
+			<span class="navbar-toggler-icon"></span>
+
+		</button>
+
+
+
+		<div class="collapse navbar-collapse" id="navbarsExample03">
+
+			<ul class="navbar-nav mr-auto">
+
+				<li class="nav-item">
+
+					<a class="nav-link" href="#">Board <span class="sr-only">(current)</span></a>
+
+				</li>
+
+				<li class="nav-item">
+
+					<a class="nav-link" href="#">Q&A</a>
+
+				</li>
+
 			</ul>
 
-			<form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-				<input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+			<form class="form-inline my-2 my-md-0">
+
+				<input class="form-control" type="text" placeholder="Search">
+
 			</form>
 
-			<div class="text-end">
-				<button type="button" class="btn btn-outline-light me-2">Login</button>
-				<button type="button" class="btn btn-warning">Sign-up</button>
-			</div>
 		</div>
-	</div>
+
+	</nav>
 </head>
 <body>
-<link rel="stylesheet" href="/member/header.jsp">
-
 
 <div id="map" style="width:500px;height:400px;"></div>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c76cc1c43d5a2282105afc01c0e20903"></script>
@@ -110,5 +127,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
