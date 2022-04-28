@@ -118,7 +118,7 @@
                 </div>
                 <div class="pw_wrap">
                     <div class="pw_input_box">
-                        <input class="pw_iput" name="user_id">
+                        <input class="pw_iput" name="user_pw">
                     </div>
                 </div>
 
