@@ -82,7 +82,7 @@
 
 	function setCenter1() {
 		// 이동할 위도 경도 위치를 생성합니다
-		var moveLatLon = new kakao.maps.LatLng(37.541, 128.986);
+		var moveLatLon = new kakao.maps.LatLng(40.541, 126.986);
 		map.setCenter(moveLatLon);
 		var level = map.getLevel();
 
