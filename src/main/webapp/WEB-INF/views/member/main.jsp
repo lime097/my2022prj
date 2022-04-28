@@ -88,7 +88,7 @@ function api1(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11110'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -104,7 +104,7 @@ function api2(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A11'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -120,7 +120,7 @@ function api3(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A12'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -136,7 +136,7 @@ function api4(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A13'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -152,7 +152,7 @@ function api5(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A14'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -168,7 +168,7 @@ function api6(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A15'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -184,7 +184,7 @@ function api7(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('26000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -200,7 +200,7 @@ function api8(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('27000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -217,7 +217,7 @@ function api9(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('28000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -233,7 +233,7 @@ function api10(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('29000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -249,7 +249,7 @@ function api11(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('300000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -265,7 +265,7 @@ function api12(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('31000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -281,7 +281,7 @@ function api13(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('41000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -297,7 +297,7 @@ function api14(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('42000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -313,7 +313,7 @@ function api15(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('43000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -329,7 +329,7 @@ function api16(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('44000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -345,7 +345,7 @@ function api17(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('45000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -361,7 +361,7 @@ function api18(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('46000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -377,7 +377,7 @@ function api19(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('47000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -393,7 +393,7 @@ function api20(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('47000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -409,7 +409,7 @@ function api21(){
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('49000'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
