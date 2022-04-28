@@ -92,7 +92,7 @@ public class MemberController {
      }
     @GetMapping(value = "/header")
     public String headerpage() throws Exception {
-        return "/header";
+        return "/member/header";
     }
     @GetMapping(value = "/login")
     public String loginpage() throws Exception {
