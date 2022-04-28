@@ -66,7 +66,7 @@
 			<input type="text" id="user_id" class="form-control" placeholder="Your ID" required autofocus><BR>
 			<label for="user_pw" class="sr-only">Password</label>
 			<input type="password" id="user_pw" class="form-control" placeholder="Password" required><br>
-			<button id="login_button" class="btn btn-lg btn-primary btn-block" type="submit" value="/userlogin">로 그 인</button>
+			<button id="login_button" class="btn btn-lg btn-primary btn-block" type="submit" onclick="location.href='/userlogin'">로 그 인</button>
 		</form>
 		<button id="joinuser" class="btn btn-lg btn-warning btn-block" type="submit" onclick="location.href='http://localhost:10000/join1'">회원가입</button>
 	</div>
