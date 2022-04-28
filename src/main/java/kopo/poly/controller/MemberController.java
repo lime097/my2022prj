@@ -173,8 +173,28 @@ public class MemberController {
     public String userloginPOST(HttpServletRequest request, MemberDTO memberDTO, RedirectAttributes rttr) throws Exception {
 
         /* logger.info("memberIdChk() 진입"); */
+
+
+        String user_id = CmmUtil.nvl(request.getParameter("user_id"));
+        String user_pw = CmmUtil.nvl(request.getParameter("user_pw"));
+
+
+        log.info(user_id);
+        log.info(user_pw);
+
+
+        MemberDTO pDTO = new MemberDTO();
+
+        pDTO.setUser_id(user_id);
+        pDTO.setUser_pw(user_pw);
+
+
         HttpSession session = request.getSession();
         MemberDTO member = memberService.userlogin(memberDTO);
+        /*
+         * 게시글 등록하기위한 비즈니스 로직을 호출
+         */
+        memberService.userjoin(pDTO);
         if(member == null){
             int result = 0;
             rttr.addFlashAttribute("/result", result);
