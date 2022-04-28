@@ -15,7 +15,6 @@
 	<title>로그인 폼</title>
 
 </head>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <style>
 	.bd-placeholder-img {
 		font-size: 1.125rem;
