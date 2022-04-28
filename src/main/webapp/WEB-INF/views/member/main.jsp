@@ -75,7 +75,7 @@
 </style>
 <body>
 
-<div id="map" style="width:500px;height:400px;"></div>
+<div id="map"></div>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c76cc1c43d5a2282105afc01c0e20903"></script>
 <script>
 	var container = document.getElementById('map');
