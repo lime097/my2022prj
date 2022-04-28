@@ -98,86 +98,7 @@ function api1(){
 
 	xhr.send('');
 }
-function api2(){
 
-	var xhr = new XMLHttpRequest();
-	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
-	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
-	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A11'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
-	xhr.open('GET', url + queryParams);
-	xhr.onreadystatechange = function () {
-		if (this.readyState == 4) {
-			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
-		}
-	};
-
-	xhr.send('');
-}
-function api3(){
-
-	var xhr = new XMLHttpRequest();
-	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
-	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
-	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A12'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
-	xhr.open('GET', url + queryParams);
-	xhr.onreadystatechange = function () {
-		if (this.readyState == 4) {
-			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
-		}
-	};
-
-	xhr.send('');
-}
-function api4(){
-
-	var xhr = new XMLHttpRequest();
-	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
-	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
-	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A13'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
-	xhr.open('GET', url + queryParams);
-	xhr.onreadystatechange = function () {
-		if (this.readyState == 4) {
-			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
-		}
-	};
-
-	xhr.send('');
-}
-function api5(){
-
-	var xhr = new XMLHttpRequest();
-	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
-	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
-	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A14'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
-	xhr.open('GET', url + queryParams);
-	xhr.onreadystatechange = function () {
-		if (this.readyState == 4) {
-			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
-		}
-	};
-
-	xhr.send('');
-}
-function api6(){
-
-	var xhr = new XMLHttpRequest();
-	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
-	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
-	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A15'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
-	xhr.open('GET', url + queryParams);
-	xhr.onreadystatechange = function () {
-		if (this.readyState == 4) {
-			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
-		}
-	};
-
-	xhr.send('');
-}
 function api7(){
 
 	var xhr = new XMLHttpRequest();
@@ -422,11 +343,6 @@ function api21(){
 
 </script>
 <button class="btn btn-lg btn-warning" onclick="api1()">서울</button>
-<button class="btn btn-lg btn-warning" onclick="api2()">도심권</button>
-<button class="btn btn-lg btn-warning" onclick="api3()">동북권</button>
-<button class="btn btn-lg btn-warning" onclick="api4()">서북권</button>
-<button class="btn btn-lg btn-warning" onclick="api5()">서남권</button>
-<button class="btn btn-lg btn-warning" onclick="api6()">동남권</button>
 <button class="btn btn-lg btn-warning" onclick="api7()">부산</button>
 <button class="btn btn-lg btn-warning" onclick="api8()">대구</button>
 <button class="btn btn-lg btn-warning" onclick="api9()">인천</button>
