@@ -82,13 +82,125 @@
 </script>
 
 <script type="text/javascript" id="api">
-function api(){
+function api1(){
 
 	var xhr = new XMLHttpRequest();
 	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
 	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
 	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11110'); /**/
-	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202203'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api2(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A11'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api3(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A12'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api4(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A13'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api5(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A14'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api6(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('11A15'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api7(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('26000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api8(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('27000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
 	xhr.open('GET', url + queryParams);
 	xhr.onreadystatechange = function () {
 		if (this.readyState == 4) {
@@ -99,9 +211,238 @@ function api(){
 	xhr.send('');
 }
 
+function api9(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('28000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api10(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('29000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api11(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('300000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api12(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('31000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api13(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('41000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api14(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('42000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api15(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('43000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api16(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('44000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api17(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('45000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api18(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('46000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api19(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('47000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api20(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('47000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
+function api21(){
+
+	var xhr = new XMLHttpRequest();
+	var url = 'http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcRHTrade'; /*URL*/
+	var queryParams = '?' + encodeURIComponent('serviceKey') + '='+'ZRSyL0r8ICOuGWAMN7D6Q2LkcS8pgYf%2FREi6WHhsy%2BaKotLgDmgl1EnmMFG2hl%2Fy09nYgQMi1xf1cPeCt1BC2Q%3D%3D'; /*Service Key*/
+	queryParams += '&' + encodeURIComponent('LAWD_CD') + '=' + encodeURIComponent('49000'); /**/
+	queryParams += '&' + encodeURIComponent('DEAL_YMD') + '=' + encodeURIComponent('202204'); /**/
+	xhr.open('GET', url + queryParams);
+	xhr.onreadystatechange = function () {
+		if (this.readyState == 4) {
+			alert('Status: '+this.status+'nHeaders: '+JSON.stringify(this.getAllResponseHeaders())+'nBody: '+this.responseText);
+		}
+	};
+
+	xhr.send('');
+}
 
 </script>
-<button class="btn btn-lg btn-warning" onclick="api()">test</button>
+<button class="btn btn-lg btn-warning" onclick="api1()">서울</button>
+<button class="btn btn-lg btn-warning" onclick="api2()">도심권</button>
+<button class="btn btn-lg btn-warning" onclick="api3()">동북권</button>
+<button class="btn btn-lg btn-warning" onclick="api4()">서북권</button>
+<button class="btn btn-lg btn-warning" onclick="api5()">서남권</button>
+<button class="btn btn-lg btn-warning" onclick="api6()">동남권</button>
+<button class="btn btn-lg btn-warning" onclick="api7()">부산</button>
+<button class="btn btn-lg btn-warning" onclick="api8()">대구</button>
+<button class="btn btn-lg btn-warning" onclick="api9()">인천</button>
+<button class="btn btn-lg btn-warning" onclick="api10()">광주</button>
+<button class="btn btn-lg btn-warning" onclick="api11()">대전</button>
+<button class="btn btn-lg btn-warning" onclick="api12()">울산</button>
+<button class="btn btn-lg btn-warning" onclick="api13()">경기</button>
+<button class="btn btn-lg btn-warning" onclick="api14()">강원</button>
+<button class="btn btn-lg btn-warning" onclick="api15()">충북</button>
+<button class="btn btn-lg btn-warning" onclick="api16()">충남</button>
+<button class="btn btn-lg btn-warning" onclick="api17()">전북</button>
+<button class="btn btn-lg btn-warning" onclick="api18()">전남</button>
+<button class="btn btn-lg btn-warning" onclick="api19()">경북</button>
+<button class="btn btn-lg btn-warning" onclick="api20()">경남</button>
+<button class="btn btn-lg btn-warning" onclick="api21()">제주</button>
+
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
