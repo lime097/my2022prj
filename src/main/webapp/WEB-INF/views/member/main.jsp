@@ -7,7 +7,7 @@
 	<title>Kakao 지도 시작하기</title>
 </head>
 <body>
-<link href="/member/header.jsp">
+<link rel="stylesheet" href="/member/header.jsp">
 
 
 <div id="map" style="width:500px;height:400px;"></div>
