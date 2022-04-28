@@ -201,6 +201,6 @@ public class MemberController {
             return "redirect:/index";
         }
         session.setAttribute("member", member);
-        return "/main";
+        return "redirect:/main";
     }
 }
