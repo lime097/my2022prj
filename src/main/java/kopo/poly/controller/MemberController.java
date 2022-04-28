@@ -189,12 +189,13 @@ public class MemberController {
         pDTO.setUser_pw(user_pw);
 
 
-        HttpSession session = request.getSession();
-        MemberDTO member = memberService.userlogin(memberDTO);
+
         /*
          * 게시글 등록하기위한 비즈니스 로직을 호출
          */
-        memberService.userjoin(pDTO);
+        memberService.userlogin(pDTO);
+        HttpSession session = request.getSession();
+        MemberDTO member = memberService.userlogin(memberDTO);
         if(member == null){
             int result = 0;
             rttr.addFlashAttribute("/result", result);
