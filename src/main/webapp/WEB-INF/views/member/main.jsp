@@ -91,11 +91,14 @@ function seoul1(){
 
 </script>
 <!--시도=지도이동 구=지도이동, 건물표시 시도16개 구 108?개 -->
-<div class="dropdown">
-	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"  onclick="setSeoul()">
+<div class="btn-group dropup">
+	<button type="button" class="btn btn-secondary" onclick="setSeoul()">
 		서울
 	</button>
-	<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+	<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+		<span class="visually-hidden">Toggle Dropdown</span>
+	</button>
+	<ul class="dropdown-menu">
 		<li><a class="dropdown-item" onclick="seoul1()">종로구</a></li>
 		<li><a class="dropdown-item" href="#">중구</a></li>
 		<li><a class="dropdown-item" href="#">용산구</a></li>
