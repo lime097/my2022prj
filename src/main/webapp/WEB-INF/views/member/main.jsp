@@ -96,7 +96,7 @@ function seoul1(){
 		서울
 	</button>
 	<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-		<li><a class="dropdown-item" href="#">종로구</a></li>
+		<li><a class="dropdown-item" onclick="seoul1()">종로구</a></li>
 		<li><a class="dropdown-item" href="#">중구</a></li>
 		<li><a class="dropdown-item" href="#">용산구</a></li>
 		<li><a class="dropdown-item" href="#">성동구</a></li>
