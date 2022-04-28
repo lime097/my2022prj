@@ -324,6 +324,7 @@ function api21(){
 }
 
 </script>
+<!--시도=지도이동 구=지도이동, 건물표시 시도16개 구 108?개 -->
 <button class="btn btn-lg btn-warning" onclick="setSeoul(), api1()">서울</button>
 <button class="btn btn-lg btn-warning" onclick="api7()">부산</button>
 <button class="btn btn-lg btn-warning" onclick="api8()">대구</button>
