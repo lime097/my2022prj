@@ -358,7 +358,7 @@ function api21(){
 }
 
 </script>
-<button class="btn btn-lg btn-warning" onclick="api1(),setCenter()">서울</button>
+<button class="btn btn-lg btn-warning" onclick="setCenter1(), api1()">서울</button>
 <button class="btn btn-lg btn-warning" onclick="api7()">부산</button>
 <button class="btn btn-lg btn-warning" onclick="api8()">대구</button>
 <button class="btn btn-lg btn-warning" onclick="api9()">인천</button>
