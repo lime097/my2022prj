@@ -62,13 +62,6 @@
 		position: sticky;
 		top: 0;
 	}
-	#map{
-		position: absolute;
-		left: 0;
-		top: 0;
-		margin: 0;
-		padding: 0;
-	}
 
 </style>
 <body>
