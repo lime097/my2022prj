@@ -74,7 +74,7 @@
 	var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 			mapOption = {
 				center: new kakao.maps.LatLng(37.541, 126.986), // 지도의 중심좌표
-				level: 15 // 지도의 확대 레벨
+				level: 10 // 지도의 확대 레벨
 			};
 
 	// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
@@ -87,6 +87,7 @@
 		// 지도 중심을 이동 시킵니다
 		map.setCenter(moveLatLon);
 	}
+
 </script>
 
 <script type="text/javascript" id="api">
@@ -350,7 +351,7 @@ function api21(){
 }
 
 </script>
-<button class="btn btn-lg btn-warning" onclick="api1()">서울</button>
+<button class="btn btn-lg btn-warning" onclick="api1(),setCenter()">서울</button>
 <button class="btn btn-lg btn-warning" onclick="api7()">부산</button>
 <button class="btn btn-lg btn-warning" onclick="api8()">대구</button>
 <button class="btn btn-lg btn-warning" onclick="api9()">인천</button>
