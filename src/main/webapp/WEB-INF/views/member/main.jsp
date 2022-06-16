@@ -93,10 +93,10 @@ function seoul1(){
 <!--시도=지도이동 구=지도이동, 건물표시 시도16개 구 108?개 -->
 <div class="btn-group">
 	<!-- 추가 버튼태그 -->
-	<button class="btn btn-primary" type="button" onclick="setSeoul()">
+	<button class="btn btn-default" type="button">
 		서울
 	</button>
-	<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+	<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
 		<!-- 버튼태그 우측 메뉴출력을 위한 화살표표시
             (없어도 무관하나 메뉴버튼이라는것을 알려주기 위함) -->
 		<span class="caret"></span>
